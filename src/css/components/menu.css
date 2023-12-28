@@ -2,3 +2,16 @@
   height: 100%;
   background-color: var(--secondary-bg-color);
 }
+
+.menu .menu_header {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu .menu_items {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}

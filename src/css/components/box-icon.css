@@ -1,0 +1,12 @@
+.boxicon {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color ease-in-out 0.5s;
+  color: rgb(85, 85, 85);
+}
+
+.boxicon:hover {
+  background-color: rgba(0, 0, 0, 5%);
+  cursor: pointer;
+}

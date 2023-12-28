@@ -1,0 +1,21 @@
+.menu_item,
+.menu_item--active {
+  height: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+}
+
+.menu_item--active {
+  color: var(--accsent-color);
+}
+
+.menu_item:hover,
+.menu_item--active:hover {
+  background-color: rgba(0, 0, 0, 5%);
+  cursor: pointer;
+}
