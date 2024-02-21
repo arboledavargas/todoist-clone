@@ -1,6 +1,8 @@
 .menu {
   height: 100%;
   background-color: var(--secondary-bg-color);
+  display: flex;
+  flex-direction: column;
 }
 
 .menu .menu_header {
@@ -14,4 +16,8 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
+}
+
+.menu .free-space {
+  flex-grow: 1;
 }

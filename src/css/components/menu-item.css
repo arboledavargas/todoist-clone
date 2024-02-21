@@ -1,21 +1,37 @@
 .menu_item,
+.menu_items_header,
 .menu_item--active {
-  height: 32px;
+  height: 34px;
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-weight: 500;
-  padding: 0 0.5rem;
+  gap: 1rem;
+  padding: 0.5rem;
   border-radius: 5px;
 }
 
 .menu_item--active {
+  font-weight: 500;
   color: var(--accsent-color);
 }
 
 .menu_item:hover,
+.menu_items_header:hover,
 .menu_item--active:hover {
   background-color: rgba(0, 0, 0, 5%);
   cursor: pointer;
+}
+
+.menu_item_label,
+.menu_items_header_label {
+  flex-grow: 1;
+}
+
+.menu_item_badge {
+  color: rgba(0, 0, 0, 60%);
+  font-size: 0.85rem;
+}
+
+.menu_items_header_label {
+  font-weight: 500;
 }

@@ -1,0 +1,13 @@
+.action_button {
+	display: flex;
+	gap: .5rem;
+}
+
+.action_button:hover {
+	color: var(--accsent-color);
+	cursor: pointer;
+}
+
+.icon {
+	color: var(--accsent-color);
+}

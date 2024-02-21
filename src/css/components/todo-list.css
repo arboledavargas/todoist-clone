@@ -1,0 +1,15 @@
+.todo_list_accordion .todo_list_header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.todo_list_accordion .todo_list_header_title {
+  flex-grow: 1;
+  font-weight: 700;
+}
+
+.todo_list_header_content {
+  display: flex;
+  flex-grow: 1;
+}

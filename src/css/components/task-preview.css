@@ -1,0 +1,18 @@
+.taskPreview {
+  display: flex;
+  border-top: 1px solid lightgray;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.taskPreview-toggle {
+  padding: 0 0.5rem;
+}
+
+.taskPreview-content-title {
+  margin-bottom: 0.5rem;
+}
+
+.taskPreview-content-text {
+  font-size: 0.9rem;
+  color: var(--secondary-text);
+}

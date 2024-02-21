@@ -1,0 +1,31 @@
+.editor {
+	padding: 0;
+}
+
+.editor :global(.ql-editor) {
+	padding: 0;
+}
+
+.editor :global(.ql-blank::before) {
+	padding: 0;
+	left: 0;
+	font-style: normal;
+	font-weight: 500;
+	color: rgba(0,0,0,.5);
+}
+
+.editor_slim {
+	padding: 0;
+}
+
+.editor_slim :global(.ql-editor) {
+	padding: 0;
+}
+
+.editor_slim :global(.ql-blank::before) {
+	padding: 0;
+	left: 0;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(0,0,0,.5);
+}

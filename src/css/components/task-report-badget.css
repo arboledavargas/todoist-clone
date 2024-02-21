@@ -1,0 +1,5 @@
+.taskReportBadget,
+.taskReportBadget .customIcon {
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 0.5rem;
+}

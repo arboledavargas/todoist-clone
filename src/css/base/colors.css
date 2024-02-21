@@ -1,5 +1,6 @@
 :root {
   --secondary-bg-color: #faf8f7;
   --secondary-bg-color_hover: #fcf5f2;
-  --accsent-color: rgba(192, 77, 65);
+  --accsent-color: rgb(219, 82, 67);
+  --secondary-text: rgba(0, 0, 0, 0.7);
 }

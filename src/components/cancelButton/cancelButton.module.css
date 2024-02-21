@@ -1,0 +1,18 @@
+.cancelButtonFilled {
+	border: none;
+	border-radius: 5px;
+	padding: .7rem 1rem;
+	background-color: rgb(225, 225, 225);
+	font-weight: 500;
+	color: var(--secondary-text);
+}
+
+.cancelButtonFilled:hover {
+	cursor: pointer;
+	filter: brightness(80%);
+}
+
+.cancelButtonFilled:active { 
+	transition: all .08s ease-in-out;
+	transform: scale(.93);
+}

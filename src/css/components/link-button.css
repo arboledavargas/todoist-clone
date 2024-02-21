@@ -1,0 +1,8 @@
+.linkButton {
+  color: var(--accsent-color);
+}
+
+.linkButton:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

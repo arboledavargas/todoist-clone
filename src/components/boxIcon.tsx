@@ -1,3 +1,3 @@
-export function BoxIcon({ children }) {
-  return <div className="boxicon">{children}</div>;
+export default function BoxIcon({ children, className = "" }) {
+  return <div className={className + " boxicon"}>{children}</div>;
 }
